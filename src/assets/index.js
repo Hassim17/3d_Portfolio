@@ -1,7 +1,7 @@
 import logo from "./logo-dark.svg";
 import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
+import cloud from "./cloud.png";
+import design from "./design.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -20,10 +20,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import angular from "./tech/angular.png";
+import antd from "./tech/antd.svg";
+import expressjs from "./tech/expressjs.png";
+import firebase from "./tech/firebase.png";
+import gcp from "./tech/gcp.png";
+import nextjs from "./tech/nextjs.png";
+import npm from "./tech/npm.png";
+import postman from "./tech/postman.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import iamneo from "./company/iamneo.png";
+import gyanmatrix from "./company/gyanmatrix.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -31,32 +41,42 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+	logo,
+	backend,
+	cloud,
+	design,
+	web,
+	github,
+	menu,
+	close,
+	css,
+	docker,
+	figma,
+	git,
+	html,
+	javascript,
+	mongodb,
+	nodejs,
+	reactjs,
+	redux,
+	tailwind,
+	typescript,
+	threejs,
+	meta,
+	shopify,
+	starbucks,
+	gyanmatrix,
+	iamneo,
+	tesla,
+	carrent,
+	jobit,
+	tripguide,
+	angular,
+	antd,
+	expressjs,
+	firebase,
+	gcp,
+	nextjs,
+	npm,
+	postman,
 };
