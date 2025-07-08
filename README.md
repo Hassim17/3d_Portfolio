@@ -63,11 +63,13 @@ Now open your browser and go to `http://localhost:5173`.
 ```
 src/
 ├── components/      # Reusable UI components
-├── sections/        # About, Experience, Projects, Contact, etc.
 ├── assets/          # Images, icons, models
 ├── constants/       # Data for roles, testimonials, tech stack
-├── models/          # 3D model and related code
+├── hoc/             # Higher order components
+├── utils/           # Utility functions
 ├── App.jsx          # Main app layout
+├── index.css        # Global CSS file
+├── style.js         # Reusable styles
 └── main.jsx         # Entry point
 ```
 
