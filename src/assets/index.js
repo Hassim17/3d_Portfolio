@@ -36,9 +36,9 @@ import iamneo from "./company/iamneo.png";
 import gyanmatrix from "./company/gyanmatrix.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import prodraft from "./prodraft.png";
+import horizon from "./horizon.png";
+import figmaClone from "./figma-clone.png";
 
 export {
 	logo,
@@ -68,12 +68,12 @@ export {
 	gyanmatrix,
 	iamneo,
 	tesla,
-	carrent,
-	jobit,
-	tripguide,
+	prodraft,
+	horizon,
+	figmaClone,
 	angular,
 	antd,
-	expressjs,
+	// expressjs,
 	firebase,
 	gcp,
 	nextjs,

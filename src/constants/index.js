@@ -15,10 +15,11 @@ import {
 	docker,
 	iamneo,
 	gyanmatrix,
-	carrent,
-	jobit,
-	tripguide,
-	expressjs,
+	prodraft,
+	horizon,
+	figmaClone,
+	// expressjs,
+	nextjs,
 	firebase,
 	gcp,
 } from "../assets";
@@ -133,10 +134,10 @@ const technologies = [
 		name: "React JS",
 		icon: reactjs,
 	},
-	// {
-	// 	name: "Next.js",
-	// 	icon: nextjs,
-	// },
+	{
+		name: "Next.js",
+		icon: nextjs,
+	},
 	// {
 	// 	name: "Angular",
 	// 	icon: angular,
@@ -159,10 +160,10 @@ const technologies = [
 		name: "Node.js",
 		icon: nodejs,
 	},
-	{
-		name: "Express.js",
-		icon: expressjs,
-	},
+	// {
+	// 	name: "Express.js",
+	// 	icon: expressjs,
+	// },
 
 	// Database
 	{
@@ -248,42 +249,88 @@ const experiences = [
 const testimonials = [
 	{
 		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
-		image: "https://randomuser.me/api/portraits/women/4.jpg",
+			"Hassim have showcased exceptional skills in cross technology learning and developing high queslity UI screens for Neo Hire.",
+		name: "Suresh Shanmugam",
+		designation: "Product Engineering and Delivery",
+		company: "Iamneo.ai",
+		image: "https://media.licdn.com/dms/image/v2/C4E03AQHdz3o3UltcvQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517746955242?e=1757548800&v=beta&t=wHH6p-drCUaVwDYMH1vGo9Mqcmf3c2hUIClyBwep8og",
 	},
 	{
 		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
+			"Hassim delivered a clean, pixel-perfect UI screen that immediately impressed the client. It added a noticeable layer of quality to the final product.",
+		name: "Rajan Parasuraman",
+		designation: "CEO & Co-Founder",
+		company: "GyanMatrix Technologies",
+		image: "https://media.licdn.com/dms/image/v2/D5603AQEBfxdqQjhckQ/profile-displayphoto-shrink_400_400/B56ZOYKKtNGgAk-/0/1733424624119?e=1757548800&v=beta&t=SSjIHyQABOX0qyJ058f1vrBtEKHIWBBCeNzmDxLKBIQ",
 	},
 	{
 		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
+			"Hassim’s one of those developers you can give anything to without worrying. He picks things up fast, handles work responsibly, and always delivers clean, solid code. Definitely someone I trust on the team.",
+		name: "Veeranaveen Sethuraman",
+		designation: "Solution Architect",
+		company: "GyanMatrix Technologies",
+		image: "https://media.licdn.com/dms/image/v2/C5603AQG-gpCSg_jb1A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1652634602661?e=1757548800&v=beta&t=78JMt3aV1v8-DJAVec6KfgaWnjO3MCS4IKecbaRtNrU",
 	},
 ];
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "ProDraft",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"A real-time collaborative document editor built with Next.js, Liveblocks, Lexical Editor, and ShadCN UI. Supports multiplayer editing, rich text formatting, and presence indicators — designed for speed, simplicity, and seamless collaboration",
+		tags: [
+			{
+				name: "nextjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "liveblocks",
+				color: "white-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "pink-text-gradient",
+			},
+		],
+		image: prodraft,
+		source_code_link: "https://github.com/Hassim17/ProDraft",
+	},
+	{
+		name: "Figma Clone",
+		description:
+			"A simplified Figma-style collaborative design tool built with Next.js, Liveblocks, and fabric.js. Supports real-time multiplayer editing, cursor presence, comment threads, and basic shape drawing — built purely for learning and experimentation.",
+		tags: [
+			{
+				name: "nextjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "liveblocks",
+				color: "white-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "fabricjs",
+				color: "green-text-gradient",
+			},
+		],
+		image: figmaClone,
+		source_code_link: "https://github.com/Hassim17/figma-clone",
+	},
+	{
+		name: "HorizonX-Gaming-Website",
+		description:
+			"A stunning award-gaming website clone with ultimate animations powered by GSAP and seamless smooth transitions for an immersive user experience.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "gsap",
 				color: "green-text-gradient",
 			},
 			{
@@ -291,50 +338,8 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
-	},
-	{
-		name: "Job IT",
-		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "restapi",
-				color: "green-text-gradient",
-			},
-			{
-				name: "scss",
-				color: "pink-text-gradient",
-			},
-		],
-		image: jobit,
-		source_code_link: "https://github.com/",
-	},
-	{
-		name: "Trip Guide",
-		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-		tags: [
-			{
-				name: "nextjs",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "supabase",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: horizon,
+		source_code_link: "https://github.com/Hassim17/HorizonX-Gaming-Website",
 	},
 ];
 

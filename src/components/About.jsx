@@ -50,10 +50,10 @@ const About = () => {
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading[30px]"
 			>
 				I'm a Full-stack Software Engineer with 3 years of experience,
-				specializing in frontend development. I design responsive,
-				high-performance UIs and build scalable web applications with
-				modern tech. Focused on clean code, usability, and seamless user
-				experiences.
+				specializing in frontend development. I design and develop
+				responsive, high-performance UIs and build scalable web
+				applications with modern tech. Focused on clean code, usability,
+				and seamless user experiences.
 			</motion.p>
 
 			<div className="mt-20 flex flex-wrap gap-10  ">
