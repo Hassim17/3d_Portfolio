@@ -265,7 +265,7 @@ const testimonials = [
 	},
 	{
 		testimonial:
-			"Hassim’s one of those developers you can give anything to without worrying. He picks things up fast, handles work responsibly, and always delivers clean, solid code. Definitely someone I trust on the team.",
+			"Hassim’s one of those developers you can hand anything to without worry. He picks things up fast, works responsibly, and delivers clean, solid code. Definitely someone I trust on the team.",
 		name: "Veeranaveen Sethuraman",
 		designation: "Solution Architect",
 		company: "GyanMatrix Technologies",
